@@ -1,0 +1,49 @@
+#clock div:nth-child(1), #clock div:nth-child(2), #clock div:nth-child(3),
+#clock div:nth-child(4), #clock div:nth-child(5), #clock div:nth-child(6),
+#clock div:nth-child(7), #clock div:nth-child(8), #clock div:nth-child(9),
+#clock div:nth-child(10), #clock div:nth-child(11), #clock div:nth-child(12){
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clock div:nth-child(1){
+  transform: translate(22.5%, -37.5%);
+}
+#clock div:nth-child(2){
+  transform: translate(37.5%, -21.65%);
+}
+#clock div:nth-child(3){
+  transform: translate(45%, 0%);
+}
+#clock div:nth-child(4){
+  transform: translate(37.5%, 21.65%);
+}
+#clock div:nth-child(5){
+  transform: translate(22.5%, 37.5%);
+}
+#clock div:nth-child(6){
+  transform: translate(0%, 45%);
+}
+#clock div:nth-child(7){
+  transform: translate(-22.5%, 37.5%);
+}
+#clock div:nth-child(8){
+  transform: translate(-37.5%, 21.65%);
+}
+#clock div:nth-child(9){
+  transform: translate(-45%, 0%);
+}
+#clock div:nth-child(10){
+  transform: translate(-37.5%, -21.65%);
+}
+#clock div:nth-child(11){
+  transform: translate(-22.5%, -37.5%);
+}
+#clock div:nth-child(12){
+  transform: translate(0%, -45%);
+}
+button{
+  transform: translateZ(30px);
+}
